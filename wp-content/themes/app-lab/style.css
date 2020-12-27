@@ -1,0 +1,383 @@
+/*
+Theme Name: App Lab
+Theme URI: http://wordpress.org
+Author: Hrishikesh
+Author URI: http://wordpress.org/
+Description: The description for App Lab goes here.  
+Version: 1.0
+*/
+
+h1, h2, h4, h3, h5, h6, p, button, span, a, li {
+	font-family: 'Poppins', sans-serif;
+}
+
+button:hover, 
+a:hover {
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.app-btn {
+	background-color: #2500F9;
+	padding: 10px 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+	border: 1.5px solid #2500f9;
+    transition: background 0.5s;
+
+}
+
+.app-btn:hover {
+    background: white;
+    color: #2500f9;
+}
+
+.app-hr {
+	border-top: 1px solid #E5E6E5;
+}
+
+.price-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #242F51;
+}
+
+.price-month {
+    color: #999CA5;
+    font-size: 18px;
+}
+
+.app-desc {
+    color: #999CA5;
+    font-size: 16px;
+}
+
+.price-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.app-shadow {
+    box-shadow: 2px 13px 50px -48px rgba(0,0,0,0.75);
+    border: none;
+}
+
+.price-btn {
+    border: 2px solid #EBEBEB;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 26px;
+}
+
+.app-link {
+	color: #2500F9;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.app-ultimate-btn {
+	padding: 10px 40px;
+}
+
+/*.ult-fix{
+    right: 0;
+    width: 145%;
+    position: relative;
+}*/
+
+.footer-container {
+	background-color: #09142E;
+}
+
+.footer-menu li a {
+    color: white;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.logo{
+	float: right;
+    margin-left: 80px;
+}
+
+.header-menu li {
+	font-size: 15px;
+    padding: 15px 12px 0;
+}
+
+.header-menu li a{
+	color: #242F51;
+	font-weight: 600;
+}
+
+.header-menu button{
+	margin-left: 20px;
+}
+
+.app-icons {
+    color: #273043;
+}
+
+.app-icons .fa-slack:before {
+    color: #fff;
+}
+
+.footer-icons li {
+	padding: 0 6px;
+}
+
+.footer-text {
+	font-size: 14px;
+	color: #484d5c;
+	font-weight: 500;
+}
+
+.app-download-title {
+	font-size: 50px;
+	color: #242F51;
+	font-weight: 600;
+}
+
+.footer-container {
+    margin-top: -55px;
+}
+
+/*.app-person {
+	background: url(../../images/vector.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}*/
+
+.app-companies li {
+	padding: 0 25px;
+}
+
+.app-data{
+	padding-left: 140px;
+}
+
+.app-title-color {
+	font-weight: 600;
+}
+
+.app-title-general {
+    font-weight: 600;
+    color: #242F51;  
+}
+
+.app-head-text {
+	font-size: 40px;
+	font-weight: 600;
+	color: #242F51;
+}
+
+.app-main-bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.app-atf-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #242F51;
+}
+
+.app-atf-choice {
+	background: #E2EAED;
+    border-radius: 20px;
+
+    width: 340px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.app-atf-choice span img {
+    margin-top: -3px;
+}
+
+.app-faq-title {
+    font-weight: 600;
+    color: #242F51;
+    font-size: 20px;
+}
+
+.app-faq-title:hover {
+    text-decoration: none;
+}
+
+.app-accordian .card-header,
+.app-accordian .card-body {
+    background-color: #F5F7FA;
+}
+
+.app-accordian .card,
+.app-accordian .card-header {
+    border: none;
+}
+
+.app-accordian .card {
+    padding: 5px 0;
+}
+
+.app-accordian .card-body {
+   padding: 0 30px 30px 30px;
+}
+
+
+.app-btn-simple {
+    background-color: #2500F9;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1.5px solid #2500f9;
+}
+
+.app-no-btn {
+    background-color: white;   
+    border:none;
+    color:#2500f9;
+}
+
+.app-no-btn:hover {
+    background-color: #2500f9!important;   
+    color: white;
+
+}
+
+.app-trusted {
+    font-weight: 500;
+    color: #242F51;
+}
+
+#monthly-btn, 
+#annually-btn {
+    outline: none;
+}
+.aws-img {
+    width: 85%;
+    float: right;
+}
+
+.fold-img {
+    float: right;
+}
+
+.app-img {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+
+	.app-data {
+		padding-left: 20px;
+        padding-bottom: 20px;
+	}
+
+    .app-img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+
+	.footer-container {
+	    margin-top: -20px;
+	}
+
+    .app-atf-choice {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .mobile h5 button {
+        font-size: 13px;
+    }
+
+    .logo{
+        float: left !important;
+        margin-left: -20px;
+        margin-right: 140px;    
+    }
+
+    .app-atf-title {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .app-companies li {
+        margin: 20px 0;
+    }
+
+    .p-5 {
+        display: none;
+    }
+
+    .p-mob {
+        padding: 20px;
+    }
+
+    .aws-img {
+        width: 100%;
+        float: left;
+    }
+
+    .aws-data {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .app-head-text {
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    .fold-img {
+        float: none;
+        padding: 0 0 20px 20px;
+    }
+    .app-title-general {
+        font-size: 22px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+
+    .ult-data {
+        text-align: center;
+        margin: 20px 0;
+        padding-bottom: 20px;
+    }
+
+    .app-download-title {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .down-img {
+        width: 160px;
+    }
+
+    .top-div {
+        padding: 30px;
+    }
+
+    .app-shadow,
+    .app-price-box {
+        width: 100%!important;    
+    }
+
+
+    /*.ult-fix {
+        padding-top: 20px;
+        right: 0;
+        width: 104%;
+        position: relative;
+    }*/
+}
